@@ -1,0 +1,8 @@
+
+ul li.js-active input[type='text']{
+    display: inline-block;
+}
+
+ul li input[type='text']{
+    display: none;
+}

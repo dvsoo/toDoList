@@ -110,7 +110,7 @@ const addUnCompleteList = TodoText => {
 
 
     /// li add
-    jsUnList.appendChild(jsUnListChildren);
+    jsUnList.appendChild(jsUnListChildren);;
 
     addEvent(jsUnListChildren, isCheckedList);
     ////Delete와 Edit와 checkbox에 이벤트를 추가할 것인데, 이 셋을 통일 시키는 것은 누구? jsUnListChildren
